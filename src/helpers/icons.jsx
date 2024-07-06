@@ -587,7 +587,7 @@ export const LightMode = () => {
 export const Mail = () => {
   return (
     <svg
-      className="text-indigo-400"
+      className="text-zinc-400 hover:text-indigo-400"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="-0.5 -0.5 24 24"
       id="Email-Envelope-Close--Streamline-Pixel"
@@ -598,147 +598,147 @@ export const Mail = () => {
         <path
           d="M21.9003125 4.3843749999999995H23v14.231250000000001h-1.0996875Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M20.8078125 18.615624999999998h1.0925v1.0996875h-1.0925Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M20.8078125 3.2846875000000004h1.0925V4.3843749999999995h-1.0925Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M19.7153125 5.476875h1.0925v2.1921874999999997h-1.0925Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M2.1921874999999997 19.7153125h18.615624999999998v1.0925H2.1921874999999997Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M18.615624999999998 16.430625h1.0996875v1.0925H18.615624999999998Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M18.615624999999998 7.6690625h1.0996875v1.0925H18.615624999999998Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M17.523125 15.3309375h1.0925v1.0996875h-1.0925Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M17.523125 8.7615625h1.0925v1.0925h-1.0925Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M16.423437500000002 14.2384375h1.0996875v1.0925h-1.0996875Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M16.423437500000002 9.854062500000001h1.0996875v1.0996875h-1.0996875Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M15.3309375 13.145937499999999h1.0925v1.0925h-1.0925Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M15.3309375 10.95375h1.0925v1.0925h-1.0925Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M13.138750000000002 12.04625h2.1921874999999997v1.0996875h-2.1921874999999997Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M9.854062500000001 13.145937499999999h3.2846875000000004v1.0925h-3.2846875000000004Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M7.661875 12.04625h2.1921874999999997v1.0996875h-2.1921874999999997Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M6.569375000000001 13.145937499999999h1.0925v1.0925H6.569375000000001Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M6.569375000000001 10.95375h1.0925v1.0925H6.569375000000001Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M5.476875 14.2384375h1.0925v1.0925H5.476875Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M5.476875 9.854062500000001h1.0925v1.0996875H5.476875Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M4.3771875 15.3309375h1.0996875v1.0996875H4.3771875Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M4.3771875 8.7615625h1.0996875v1.0925H4.3771875Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M3.2846875000000004 16.430625h1.0925v1.0925H3.2846875000000004Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M3.2846875000000004 7.6690625h1.0925v1.0925H3.2846875000000004Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M2.1921874999999997 2.1921874999999997h18.615624999999998v1.0925H2.1921874999999997Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M2.1921874999999997 5.476875h1.0925v2.1921874999999997H2.1921874999999997Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M1.0925 18.615624999999998h1.0996875v1.0996875H1.0925Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M1.0925 3.2846875000000004h1.0996875V4.3843749999999995H1.0925Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M0 4.3843749999999995h1.0925v14.231250000000001H0Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
       </g>
     </svg>
@@ -748,7 +748,7 @@ export const Mail = () => {
 export const LinkedIn = () => {
   return (
     <svg
-      className="text-indigo-400"
+      className="text-zinc-400 hover:text-indigo-400"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="-0.5 -0.5 24 24"
       id="Logo-Linkedin--Streamline-Pixel"
@@ -759,77 +759,77 @@ export const LinkedIn = () => {
         <path
           d="M21.9003125 2.1921874999999997H23v18.615624999999998h-1.0996875Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M20.8078125 20.8078125h1.0925v1.0996875h-1.0925Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M20.8078125 1.0925h1.0925v1.0996875h-1.0925Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M19.708125000000003 3.2846875000000004h1.0996875v16.430625h-1.0996875Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M2.185 21.9075h18.6228125V23H2.185Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M3.2846875000000004 19.7153125h16.423437500000002v1.0925H3.2846875000000004Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="m16.423437500000002 10.95375 -1.0925 0 0 -1.0996875 -2.1921874999999997 0 0 1.0996875 -1.0925 0 0 -1.0996875 -2.1921874999999997 0 0 6.5765625000000005 2.1921874999999997 0 0 -3.2846875000000004 1.0925 0 0 -1.0996875 1.0996875 0 0 1.0996875 1.0925 0 0 3.2846875000000004 2.1921874999999997 0 0 -4.3843749999999995 -1.0996875 0 0 -1.0925z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M5.4696875 9.854062500000001h2.1921874999999997v6.5765625000000005H5.4696875Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M5.4696875 6.569375000000001h2.1921874999999997v2.1921874999999997H5.4696875Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M3.2846875000000004 2.1921874999999997h16.423437500000002v1.0925H3.2846875000000004Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M2.185 0h18.6228125v1.0925H2.185Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M2.185 3.2846875000000004h1.0996875v16.430625H2.185Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M1.0925 20.8078125h1.0925v1.0996875H1.0925Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M1.0925 1.0925h1.0925v1.0996875H1.0925Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
         <path
           d="M0 2.1921874999999997h1.0925v18.615624999999998H0Z"
           fill="currentColor"
-          stroke-width="1"
+          strokeWidth="1"
         ></path>
       </g>
     </svg>

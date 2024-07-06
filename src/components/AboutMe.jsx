@@ -16,7 +16,11 @@ function AboutMe() {
           excellence in every project I undertake, continuously learning and
           improving my skills to stay ahead in the fast-paced world of frontend
           development. I also really enjoy pixel art. You can check out my{" "}
-          <a href="/resume.pdf" download className="text-fuchsia-600">
+          <a
+            href="/resume.pdf"
+            download
+            className="text-indigo-400 hover:bg-indigo-400 hover:text-white"
+          >
             Resume.
           </a>{" "}
         </div>

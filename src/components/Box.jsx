@@ -16,7 +16,7 @@ const Box = ({ imageSrc, title, description, tags, link }) => {
       />
       <div className="p-4">
         <h2 className="text-2xl font-bold">{title}</h2>
-        <p className="mt-2">{description}</p>
+        <p className="mt-2 text-lg">{description}</p>
         <div className="pt-4 mt-4 max-w-full">
           <div className="flex flex-wrap justify-between items-center">
             <div className="text-xl flex flex-wrap">
@@ -29,12 +29,11 @@ const Box = ({ imageSrc, title, description, tags, link }) => {
                 </span>
               ))}
             </div>
-            <div className="w-full flex justify-end mt-2 md:mt-0">
+            <div className="flex justify-end mx-auto p-3 md:p-1">
               <a
-                className="btn textarea-secondary md:textarea-sm md:text-lg"
+                className="btn-ghost p-1 textarea-secondary text-lg md:textarea-sm md:text-xl hover:bg-indigo-400 hover:text-white rounded-sm"
                 href={link}
                 target="_blank"
-                rel="noopener noreferrer"
               >
                 Check it out →
               </a>

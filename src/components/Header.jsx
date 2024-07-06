@@ -37,19 +37,28 @@ function Header() {
                     </summary>
                     <ul>
                       <li>
-                        <a>
+                        <a
+                          href="https://github.com/ReactProjectA58/PlanPal"
+                          target="_blank"
+                        >
                           <Page />
                           <div className="text-lg">PlanPal</div>
                         </a>
                       </li>
                       <li>
-                        <a>
+                        <a
+                          href="https://github.com/ReactProjectA58/ReactVenture"
+                          target="_blank"
+                        >
                           <Page />
                           <div className="text-lg">ReactVenture</div>
                         </a>
                       </li>
                       <li>
-                        <a>
+                        <a
+                          href="https://github.com/A58-Team-03/Web-Project-Giphy"
+                          target="_blank"
+                        >
                           <Page />
                           <div className="text-lg">Giphy Web</div>
                         </a>
@@ -62,7 +71,7 @@ function Header() {
 
             <label
               htmlFor="about_me_modal"
-              className="btn textarea-secondary text-3xl cursor-pointer"
+              className="btn-ghost p-1 textarea-secondary text-3xl cursor-pointer hover:bg-indigo-400 hover:text-white rounded-sm"
             >
               About me
             </label>
@@ -130,19 +139,28 @@ function Header() {
                   </summary>
                   <ul>
                     <li>
-                      <a>
+                      <a
+                        href="https://github.com/ReactProjectA58/PlanPal"
+                        target="_blank"
+                      >
                         <Page />
                         <div className="text-lg">PlanPal</div>
                       </a>
                     </li>
                     <li>
-                      <a>
+                      <a
+                        href="https://github.com/ReactProjectA58/ReactVenture"
+                        target="_blank"
+                      >
                         <Page />
                         <div className="text-lg">ReactVenture</div>
                       </a>
                     </li>
                     <li>
-                      <a>
+                      <a
+                        href="https://github.com/A58-Team-03/Web-Project-Giphy"
+                        target="_blank"
+                      >
                         <Page />
                         <div className="text-lg">Giphy Web</div>
                       </a>
@@ -155,16 +173,13 @@ function Header() {
           <div className="navbar-end">
             <label
               htmlFor="contacts_modal"
-              className="btn textarea-secondary text-3xl mr-1"
+              className="btn-ghost p-1 textarea-secondary text-3xl mr-1 cursor-pointer hover:bg-indigo-400 hover:text-white rounded-sm"
             >
               Contacts
             </label>
-            <Modal
-              id="contacts_modal"
-              title="I can be reached via the channels listed below !"
-            >
+            <Modal id="contacts_modal">
               <img src="/me.png" className="mx-auto my-auto w-48" />
-              <div className="flex justify-center gap-3 my-2">
+              <div className="flex justify-center gap-3 mt-6">
                 <a
                   href="https://www.linkedin.com/in/kaloyan-kostov-82b04926a/"
                   target="_blank"
