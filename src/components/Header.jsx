@@ -116,16 +116,14 @@ function Header() {
                   <li>- Strong problem-solving and analytical skills</li>
                 </ul>
 
-                <h3 className="text-2xl font-bold mt-4 ">
-                  Additional Skills and Interests:
-                </h3>
+                <h3 className="text-2xl font-bold mt-4 ">Interests:</h3>
                 <ul>
-                  <li>- Video gaming: I enjoy playing games in my free time</li>
-                  <li>- Cars: Passionate about automobiles</li>
+                  <li>- I enjoy playing games in my free time</li>
+                  <li>-I am passionate about cars</li>
                 </ul>
 
                 <h3 className="text-2xl font-bold mt-4">Languages:</h3>
-                <p>Fluent in Bulgarian and English.</p>
+                <p>Native in Bulgarian and fluent in English.</p>
               </div>
             </Modal>
           </div>
