@@ -1,6 +1,14 @@
 // Header.js
 import React from "react";
-import { Folder, LinkedIn, Mail, Menu, Page, Resume } from "../helpers/icons";
+import {
+  Folder,
+  GithubIcon,
+  LinkedIn,
+  Mail,
+  Menu,
+  Page,
+  Resume,
+} from "../helpers/icons";
 import DarkModeToggle from "./DarkModeToggle";
 import Modal from "./Modal";
 
@@ -119,7 +127,7 @@ function Header() {
                 <h3 className="text-2xl font-bold mt-4 ">Interests:</h3>
                 <ul>
                   <li>- I enjoy playing games in my free time</li>
-                  <li>-I am passionate about cars</li>
+                  <li>- I am passionate about cars</li>
                 </ul>
 
                 <h3 className="text-2xl font-bold mt-4">Languages:</h3>
@@ -183,6 +191,9 @@ function Header() {
                   target="_blank"
                 >
                   <LinkedIn />
+                </a>
+                <a href="https://github.com/Kaloyan-Kostov" target="_blank">
+                  <GithubIcon />
                 </a>
                 <a href="mailto:kostov.kaloyan44@gmail.com" target="_blank">
                   <Mail />
