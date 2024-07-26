@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* In styles.css or tailwind.css */
+body,
+.noise-background {
+  background-image: url("/public/noise-light.png");
+}

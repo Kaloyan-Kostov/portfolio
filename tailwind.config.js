@@ -6,8 +6,14 @@ export default {
   theme: {
     extend: {
       boxShadow: {
-        "dark-solid-bottom-right": "15px 15px 0px 0px rgba(129,140,248)",
+        "dark-solid-bottom-right": "15px 15px 0px 0px rgb(49,57,251)",
         // "light-solid-bottom-right": "15px 15px 0px 0px rgb(88 28 135)",
+      },
+      backgroundImage: {
+        "noise-light": "url('public/noise-light.png')",
+      },
+      colors: {
+        "nice-blue": "rgb(49,57,251)",
       },
     },
   },
@@ -46,7 +52,7 @@ export default {
           primary: "#d9c1ca",
           "primary-focus": "#ffebeb",
           "primary-content": "#f8fafc", // button color
-          secondary: "#818cf8", //700
+          secondary: "#2702c2", //700
           "secondary-focus": "#f8fafc", //500
           "secondary-content": "#f8fafc", //50
           accent: colors.fuchsia[300],
@@ -55,10 +61,10 @@ export default {
           neutral: colors.neutral[900],
           "neutral-focus": colors.neutral[700],
           "neutral-content": colors.neutral[50],
-          "base-100": colors.slate[200],
+          "base-100": colors.indigo[300],
           "base-200": colors.slate[300],
           "base-300": colors.slate[300],
-          "base-content": colors.slate[600],
+          "base-content": colors.slate[900],
           info: colors.sky[300],
           "info-content": colors.sky[900],
           success: colors.emerald[400],
@@ -107,10 +113,10 @@ export default {
           neutral: colors.neutral[100],
           "neutral-focus": colors.neutral[200],
           "neutral-content": colors.neutral[900],
-          "base-100": colors.slate[800],
+          "base-100": "rgba(69, 99, 120, 0)",
           "base-200": colors.slate[700],
           "base-300": colors.slate[700],
-          "base-content": colors.slate[400],
+          "base-content": "rgb(255,252,236)",
           info: colors.sky[300],
           "info-content": colors.sky[900],
           success: colors.emerald[400],

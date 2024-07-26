@@ -1,6 +1,6 @@
 function AboutMe() {
   return (
-    <div className="px-14 py-8">
+    <div className=" px-14 md:px-40 py-8">
       <div className="about-container">
         <div className="flex justify-center text-3xl md:text-6xl mb-4">
           My name is Kaloyan Kostov
@@ -19,7 +19,7 @@ function AboutMe() {
           <a
             href="/resume.pdf"
             download
-            className="text-indigo-400 hover:bg-indigo-400 hover:text-white"
+            className="text-nice-blue hover:bg-nice-blue underline hover:text-white transition-all transform"
           >
             Resume.
           </a>{" "}

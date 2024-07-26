@@ -3,6 +3,7 @@ import React from "react";
 import {
   Folder,
   GithubIcon,
+  HeaderAddon,
   LinkedIn,
   Mail,
   Menu,
@@ -14,10 +15,10 @@ import Modal from "./Modal";
 
 function Header() {
   return (
-    <div className="sticky top-0 z-50 py-2 bg-base-100">
-      <div className="container mx-auto px-4">
+    <div className="sticky top-0 z-50 py-2 bg-base-100  bg-noise  bg-noise-light">
+      <div className="container mx-auto px-4 ">
         <div className="navbar px-0">
-          <div className="navbar-start">
+          <div className="navbar-start group">
             <div className="dropdown">
               <div
                 tabIndex={0}
@@ -79,9 +80,10 @@ function Header() {
 
             <label
               htmlFor="about_me_modal"
-              className="btn-ghost p-1 textarea-secondary text-3xl cursor-pointer hover:bg-indigo-400 hover:text-white rounded-sm"
+              className="btn-ghost p-1 textarea-secondary text-3xl cursor-pointer hover:bg-nice-blue  hover:text-white rounded-sm transition-all transform"
             >
               About me
+              <span className="absolute -bottom-1 left-0 w-0 h-1 bg-white group-hover:w-full group-hover:transition-all"></span>
             </label>
 
             {/* Reusable Modal Component */}
@@ -176,12 +178,13 @@ function Header() {
               </li>
             </ul>
           </div>
-          <div className="navbar-end">
+          <div className="navbar-end group">
             <label
               htmlFor="contacts_modal"
-              className="btn-ghost p-1 textarea-secondary text-3xl mr-1 cursor-pointer hover:bg-indigo-400 hover:text-white rounded-sm"
+              className="btn-ghost p-1 textarea-secondary text-3xl mr-1 cursor-pointer hover:bg-nice-blue hover:text-white rounded-sm transition-all transform"
             >
               Contacts
+              <span className="absolute -bottom-1 left-0 w-0 h-1 bg-white group-hover:w-full group-hover:transition-all"></span>
             </label>
             <Modal id="contacts_modal">
               <img src="/me.png" className="mx-auto my-auto w-48" />
@@ -204,6 +207,7 @@ function Header() {
           <DarkModeToggle />
         </div>
       </div>
+      <HeaderAddon />
     </div>
   );
 }

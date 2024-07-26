@@ -1,7 +1,46 @@
+export const HeaderAddon = () => {
+  return (
+    <svg
+      width="50px"
+      height="40px"
+      viewBox="2 31 17 40"
+      preserveAspectRatio="meet"
+      version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+      style={{
+        fillRule: "evenodd",
+        clipRule: "evenodd",
+        strokeLinejoin: "round",
+        strokeMiterlimit: 2,
+        fill: "rgba(93, 122, 142, 1)",
+        backgroundRepeat: "repeat-x",
+        content: "",
+        height: "40px",
+        width: "100%",
+        position: "absolute",
+        left: "-48%",
+        bottom: "-40px",
+        overflow: "hidden",
+        zIndex: 1,
+        display: "none",
+      }}
+    >
+      <g transform="matrix(1,0,0,1,0.00216511,0)">
+        <g transform="matrix(0.997444,0,0,1.0,-367.767,-282)">
+          <path
+            d="M402.739,321.467L402.787,321.467C407.047,321.467 407.047,317.467 411.307,317.467C415.567,317.467 415.567,321.467 419.827,321.467L419.827,287.378C415.567,287.378 415.567,283.378 411.307,283.378C407.064,283.378 407.047,287.347 402.837,287.378L402.787,287.378C400.724,287.378 399.66,286.44 398.627,285.472L398.427,285.285C397.395,284.317 396.331,283.378 394.267,283.378C392.204,283.378 391.14,284.317 390.107,285.285L389.907,285.472C388.875,286.44 387.811,287.378 385.747,287.378C381.487,287.378 381.487,283.378 377.227,283.378C372.967,283.378 372.967,287.378 368.707,287.378L368.707,321.467C372.967,321.467 372.967,317.467 377.227,317.467C381.47,317.467 381.487,321.436 385.697,321.467L385.747,321.467C390.007,321.467 390.007,317.467 394.267,317.467C396.331,317.467 397.395,318.406 398.427,319.374L398.627,319.561C399.651,320.521 400.707,321.453 402.739,321.467Z"
+            style={{ fill: "rgba(69, 99, 120, 1)", fillRule: "nonzero" }}
+          />
+        </g>
+      </g>
+    </svg>
+  );
+};
+
 export const Page = () => {
   return (
     <svg
-      className="text-indigo-400"
+      className="text-nice-blue"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="-0.5 -0.5 24 24"
       id="Content-Files-Note--Streamline-Pixel"
@@ -62,7 +101,7 @@ export const Page = () => {
 export const Folder = () => {
   return (
     <svg
-      className="text-indigo-400"
+      className="text-nice-blue"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="-0.5 -0.5 24 24"
       id="Content-Files-Folder-Open--Streamline-Pixel"
@@ -148,7 +187,7 @@ export const Folder = () => {
 export const Resume = () => {
   return (
     <svg
-      className="text-indigo-400"
+      className="text-nice-blue"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="-0.5 -0.5 24 24"
       id="Content-Files-Open-Book-Bookmark--Streamline-Pixel"
@@ -279,7 +318,7 @@ export const Resume = () => {
 export const Menu = () => {
   return (
     <svg
-      className="text-indigo-400"
+      className="text-nice-blue transform transition-all hover:scale-110"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="-0.5 -0.5 24 24"
       id="Interface-Essential-List--Streamline-Pixel"
@@ -370,7 +409,7 @@ export const Menu = () => {
 export const DarkMode = () => {
   return (
     <svg
-      className="swap-on fill-current text-indigo-400"
+      className="swap-on fill-current text-nice-blue "
       xmlns="http://www.w3.org/2000/svg"
       viewBox="-0.5 -0.5 24 24"
       id="Interface-Essential-Switch-Off--Streamline-Pixel"
@@ -466,7 +505,7 @@ export const DarkMode = () => {
 export const LightMode = () => {
   return (
     <svg
-      className="swap-off fill-current text-indigo-400"
+      className="swap-off fill-current text-nice-blue"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="-0.5 -0.5 24 24"
       id="Interface-Essential-Switch-On--Streamline-Pixel"
@@ -587,7 +626,7 @@ export const LightMode = () => {
 export const Mail = () => {
   return (
     <svg
-      className="text-zinc-400 hover:text-indigo-400"
+      className="text-zinc-100 hover:text-nice-blue  transition-all transform hover:scale-125"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="-0.5 -0.5 24 24"
       id="Email-Envelope-Close--Streamline-Pixel"
@@ -748,7 +787,7 @@ export const Mail = () => {
 export const LinkedIn = () => {
   return (
     <svg
-      className="text-zinc-400 hover:text-indigo-400"
+      className="text-zinc-100 hover:text-nice-blue  transition-all transform hover:scale-125"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="-0.5 -0.5 24 24"
       id="Logo-Linkedin--Streamline-Pixel"
@@ -839,7 +878,7 @@ export const LinkedIn = () => {
 export const GithubIcon = () => {
   return (
     <svg
-      className="text-zinc-400 hover:text-indigo-400"
+      className="text-zinc-100 hover:text-nice-blue  transition-all transform hover:scale-125"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
       height="50"
