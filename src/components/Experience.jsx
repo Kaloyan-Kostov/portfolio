@@ -13,7 +13,7 @@ const experiences = [
     company: "Telerik Academy",
     period: "01/2024 - 06/2024 ",
     description:
-      "Successfully completed the 6 month Alpha JS Track program, where I gained precious experienceSuccessfully completed the 6-month Alpha JS Track program, where I developed foundational skills in JavaScript and modern web development from scratch. This program provided hands-on experience with real-world projects, equipping me with practical knowledge in building scalable web applications.",
+      "Successfully completed the 6-month Alpha JS Track program, where I developed foundational skills in JavaScript and modern web development from scratch. This program provided hands-on experience with real-world projects, equipping me with practical knowledge in building scalable web applications.",
   },
 ];
 
