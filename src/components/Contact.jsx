@@ -10,9 +10,10 @@ const Contact = () => {
         <div className="grid md:grid-cols-2 place-items-center">
           <div>
             <div className="text-gray-300 my-3">
-              <h3 className="text-4xl font-semibold mb-5">
-                About <span>Me</span>
+              <h3 className="flex justify-center md:justify-normal text-4xl font-semibold mb-5">
+                About&nbsp;<span>Me</span>
               </h3>
+
               <p className="text-justify leading-7 w-11/12 mx-auto mb-10">
                 From a young age, I was always curious about how computers work,
                 which eventually led me to dive into coding and web development.
@@ -44,7 +45,7 @@ const Contact = () => {
             <input
               type="text"
               id="name"
-              placeholder="Your Name ..."
+              placeholder="Your Name"
               name="name"
               className="mb-2 w-full rounded-md border border-purple-600 py-2 pl-2 pr-4"
               required
@@ -52,7 +53,7 @@ const Contact = () => {
             <input
               type="email"
               id="email"
-              placeholder="Your Email ..."
+              placeholder="Your Email"
               name="email"
               className="mb-2 w-full rounded-md border border-purple-600 py-2 pl-2 pr-4"
               required
@@ -62,7 +63,7 @@ const Contact = () => {
               id="textarea"
               cols="30"
               rows="4"
-              placeholder="Your Message ..."
+              placeholder="Your Message"
               className="mb-2 w-full rounded-md border border-purple-600 py-2 pl-2 pr-4"
               required
             />

@@ -50,7 +50,7 @@ const Navbar = () => {
         <ul className="hidden md:flex gap-12 z-10 cursor-pointer">
           <li>
             <Link to="skills" smooth={true} offset={50} duration={500}>
-              About
+              Skills
             </Link>
           </li>
           <li>
@@ -84,18 +84,18 @@ const Navbar = () => {
                 offset={50}
                 duration={500}
               >
-                About
+                Skills
               </Link>
             </li>
             <li>
               <Link
-                to="portfolio"
+                to="projects"
                 onClick={closeNav}
                 smooth={true}
                 offset={50}
                 duration={500}
               >
-                Portfolio
+                Projects
               </Link>
             </li>
             <li>
@@ -103,7 +103,7 @@ const Navbar = () => {
                 to="contact"
                 onClick={closeNav}
                 smooth={true}
-                offset={50}
+                offset={500}
                 duration={500}
               >
                 Contact

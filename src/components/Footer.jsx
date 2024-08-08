@@ -4,9 +4,11 @@ import { FaEnvelope, FaLinkedin } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className="max-w-[1300px] mx-auto flex justify-between p-6 md:p-20 text-sm md:text-lg mt-12">
+    <div className="max-w-[1300px] mx-auto flex justify-evenly  p-6 md:p-20 text-sm md:text-lg mt-12 ">
       <div className="space-y-4">
-        <h3 className="text-2xl text-gray-200 font-semibold">K.Kostov</h3>
+        <span className="text-gray-400  text-base md:text-xl italic flex justify-evenly ">
+          @2024 K.Kostov
+        </span>
         <div className="flex flex-row gap-3  md:gap-6 text-gray-400 text-4xl">
           <a
             href="/resume.pdf"
@@ -38,8 +40,6 @@ const Footer = () => {
           </a>
         </div>
       </div>
-
-      <p className="text-gray-400">@2024 K.Kostov</p>
     </div>
   );
 };
