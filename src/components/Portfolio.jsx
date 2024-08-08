@@ -38,8 +38,8 @@ const projects = [
 
 const Portfolio = () => {
   return (
-    <div className="max-w-[1000px] mx-auto p-6 md:my-20 pt-32" id="portfolio">
-      <h2 className="text-3xl font-bold text-gray-200 mb-8">Portfolio</h2>
+    <div className="max-w-[1000px] mx-auto p-6 md:my-20 pt-32" id="projects">
+      <h2 className="text-3xl font-bold text-gray-200 mb-8">Projects</h2>
       {projects.map((project, index) => (
         <Reveal key={index}>
           <div
