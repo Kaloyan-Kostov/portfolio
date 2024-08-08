@@ -1,9 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Sans:ital@0;1&family=Space+Grotesk:wght@300..700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* In styles.css or tailwind.css */
-body,
-.noise-background {
-  background-image: url("/public/noise-light.png");
+body {
+  font-family: "Space Grotesk", sans-serif;
+  background-color: #190b1f;
+}
+
+h2 {
+  @apply text-xl md:text-4xl;
+}
+
+p {
+  @apply text-xl tracking-tight leading-relaxed;
+}
+
+span {
+  @apply text-purple-600;
+}
+
+.shiny-effect {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 1;
+  background: radial-gradient(circle, rgba(178, 19, 202, 0.2), transparent 70%);
+}
+
+.bg-primary-color {
+  @apply bg-purple-600;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  padding: 60px 0;
+  background: white;
+  white-space: nowrap;
+  position: relative;
+  border-radius: 15px;
+  background: #30103f;
+  border-color: #581c87;
+  border-width: 1px;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+}
+
+.logos:after {
+  right: 0;
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: inline-flex;
+  animation: 35s slide infinite linear;
+}
+
+.logos-slide img {
+  height: 50px;
+  margin: 0 40px;
 }
