@@ -84,9 +84,26 @@ const intermediateProjects = [
 ];
 const Portfolio = () => {
   const [activeTab, setActiveTab] = useState("advanced");
+  const [currentPage, setCurrentPage] = useState(1);
+  const projectsPerPage = 3;
+
+  const handlePageChange = (page) => {
+    setCurrentPage(page);
+    const projectsSection = document.getElementById("projects");
+    if (projectsSection) {
+      projectsSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   const renderProjects = (projects) => {
-    return projects.map((project, index) => (
+    const indexOfLastProject = currentPage * projectsPerPage;
+    const indexOfFirstProject = indexOfLastProject - projectsPerPage;
+    const currentProjects = projects.slice(
+      indexOfFirstProject,
+      indexOfLastProject
+    );
+
+    return currentProjects.map((project, index) => (
       <Reveal key={index}>
         <div
           key={index}
@@ -130,6 +147,25 @@ const Portfolio = () => {
     ));
   };
 
+  const renderPagination = (totalProjects) => {
+    const pageNumbers = [];
+    for (let i = 1; i <= Math.ceil(totalProjects / projectsPerPage); i++) {
+      pageNumbers.push(i);
+    }
+
+    return pageNumbers.map((number) => (
+      <button
+        key={number}
+        onClick={() => handlePageChange(number)}
+        className={`px-4 py-2 mx-2 ${
+          currentPage === number ? "bg-fuchsia-950" : "bg-slate-600"
+        } text-gray-200 rounded-lg hover:bg-slate-700 duration-300`}
+      >
+        {number}
+      </button>
+    ));
+  };
+
   return (
     <div className="max-w-[1000px] mx-auto p-6 md:my-20 pt-32" id="projects">
       <h2 className="text-3xl font-bold text-gray-200 mb-2 md:mb-8 justify-center md:justify-normal flex">
@@ -140,7 +176,10 @@ const Portfolio = () => {
           className={`px-4 py-2 ${
             activeTab === "basic" ? "bg-fuchsia-950" : "bg-slate-600"
           } text-gray-200 rounded-lg hover:bg-slate-700 duration-300`}
-          onClick={() => setActiveTab("basic")}
+          onClick={() => {
+            setActiveTab("basic");
+            setCurrentPage(1);
+          }}
         >
           Basic
         </button>
@@ -148,7 +187,10 @@ const Portfolio = () => {
           className={`px-4 py-2 ${
             activeTab === "intermediate" ? "bg-fuchsia-950" : "bg-slate-600"
           } text-gray-200 rounded-lg hover:bg-slate-700 duration-300`}
-          onClick={() => setActiveTab("intermediate")}
+          onClick={() => {
+            setActiveTab("intermediate");
+            setCurrentPage(1);
+          }}
         >
           Intermediate
         </button>
@@ -156,15 +198,26 @@ const Portfolio = () => {
           className={`px-4 py-2 ${
             activeTab === "advanced" ? "bg-fuchsia-950" : "bg-slate-600"
           } text-gray-200 rounded-lg hover:bg-slate-700 duration-300`}
-          onClick={() => setActiveTab("advanced")}
+          onClick={() => {
+            setActiveTab("advanced");
+            setCurrentPage(1);
+          }}
         >
           Advanced
         </button>
       </div>
+
       <div>
         {activeTab === "basic" && renderProjects(basicProjects)}
         {activeTab === "intermediate" && renderProjects(intermediateProjects)}
         {activeTab === "advanced" && renderProjects(advancedProjects)}
+      </div>
+
+      <div className="mt-8 flex justify-center">
+        {activeTab === "basic" && renderPagination(basicProjects.length)}
+        {activeTab === "intermediate" &&
+          renderPagination(intermediateProjects.length)}
+        {activeTab === "advanced" && renderPagination(advancedProjects.length)}
       </div>
     </div>
   );
